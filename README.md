@@ -1,16 +1,118 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This portfolio showcases my profile, technical skills, featured projects, professional experience, certificates, and contact information.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://adityammar65.github.io/PersonalPortfolio/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+This portfolio was created to present my background, skills, and projects as an Informatics Management student with a strong interest in Web Development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It serves as a central place where recruiters, collaborators, and fellow developers can explore my work and get in touch.
+
+---
+
+## Features
+
+- Responsive design for Desktop, Tablet, and Mobile
+- Smooth scrolling navigation
+- Animated sections using Framer Motion
+- Featured Projects section
+- Individual Project Detail pages
+- Experience timeline
+- Certificates section
+- Contact Information
+- Download CV (English & Indonesian)
+- GitHub repository links
+- Modern Glassmorphism UI
+
+---
+
+## Built With
+
+### Frontend
+
+- React 19
+- Vite
+- Tailwind CSS 4
+- React Router DOM
+- React Scroll
+- Framer Motion
+- React Icons
+- Lucide React
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+├── data/
+├── layouts/
+├── pages/
+├── router/
+├── index.css
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Installation
+
+Clone this repository
+
+```bash
+git clone https://github.com/Adityammar65/PersonalPortfolio.git
+```
+
+Go to project directory
+
+```bash
+cd PersonalPortfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## Support
+
+If you like this project, consider giving it a on GitHub.
+
+Thank you for visiting my portfolio!
