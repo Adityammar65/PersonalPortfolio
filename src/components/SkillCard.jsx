@@ -1,4 +1,4 @@
-import { SkillItem } from "."
+import { SkillItem } from ".";
 
 export default function SkillCard({ title, items }) {
   return (
@@ -9,7 +9,9 @@ export default function SkillCard({ title, items }) {
         border-slate-700
         bg-slate-800/40
         backdrop-blur-md
-        p-8
+
+        p-6
+        sm:p-8
 
         transition-all
         duration-300
@@ -19,9 +21,11 @@ export default function SkillCard({ title, items }) {
         hover:shadow-[0_0_40px_rgba(59,130,246,.15)]
       "
     >
-      <h2 className="text-2xl font-semibold text-blue-400 mb-6">{title}</h2>
+      <h2 className="text-xl sm:text-2xl font-semibold text-blue-400 mb-5 sm:mb-6">
+        {title}
+      </h2>
 
-      <ul className="space-y-2">
+      <ul className="space-y-3">
         {items.map((item) => (
           <SkillItem key={item.name} {...item} />
         ))}
