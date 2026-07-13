@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built with **React**, **Vite*
 
 ## Live Demo
 
-👉 https://adityammar65.github.io/PersonalPortfolio/
+https://adityammar65.github.io/PersonalPortfolio/
 
 ---
 
