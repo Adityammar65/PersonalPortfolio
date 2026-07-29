@@ -2,7 +2,7 @@
 
 A modern and responsive personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This portfolio showcases my profile, technical skills, featured projects, professional experience, certificates, and contact information.
 
-## Live Demo
+## Live Preview
 
 https://aditya-ammar.vercel.app/
 
@@ -49,17 +49,58 @@ It serves as a central place where recruiters, collaborators, and fellow develop
 
 ## Project Structure
 
-```text
+# Project Structure
+
+```
 src/
-│
-├── assets/
-├── components/
-├── data/
-├── layouts/
-├── pages/
-├── router/
-├── index.css
+├── assets
+│   ├── hero.png
+│   ├── ProfilePhoto.jpg
+│   ├── react.svg
+│   └── vite.svg
+├── components
+│   ├── common
+│   │   ├── AnimatedSection.jsx
+│   │   ├── BackgroundDecor.jsx
+│   │   ├── Footer.jsx
+│   │   ├── index.js
+│   │   └── Navbar.jsx
+│   ├── home
+│   │   ├── About.jsx
+│   │   ├── Certificate.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Hero.jsx
+│   │   ├── index.js
+│   │   ├── ProjectCard.jsx
+│   │   ├── Projects.jsx
+│   │   ├── SkillCard.jsx
+│   │   ├── SkillItem.jsx
+│   │   └── Skills.jsx
+│   ├── project
+│   │   ├── index.js
+│   │   ├── ProjectArchitecture.jsx
+│   │   ├── ProjectFeatures.jsx
+│   │   ├── ProjectHero.jsx
+│   │   ├── ProjectLinks.jsx
+│   │   ├── ProjectOverview.jsx
+│   │   └── ProjectTechStack.jsx
+│   └── index.js
+├── data
+│   ├── projects.js
+│   └── skills.js
+├── hooks
+│   └── useScrollDirection.js
+├── layouts
+│   └── MainLayout.jsx
+├── pages
+│   ├── Home.jsx
+│   ├── index.js
+│   └── ProjectDetail.jsx
+├── router
+│   └── index.jsx
 ├── App.jsx
+├── index.css
 └── main.jsx
 ```
 
@@ -91,18 +132,6 @@ Run development server
 npm run dev
 ```
 
-Build production
-
-```bash
-npm run build
-```
-
-Deploy to GitHub Pages
-
-```bash
-npm run deploy
-```
-
 ---
 
 ## License
@@ -113,6 +142,6 @@ This project is open-source and available under the MIT License.
 
 ## Support
 
-If you like this project, consider giving it a on GitHub.
+If you like this project, consider giving it a star on GitHub.
 
 Thank you for visiting my portfolio!
