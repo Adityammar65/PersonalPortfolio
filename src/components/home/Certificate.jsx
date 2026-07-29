@@ -1,4 +1,4 @@
-import AnimatedSection from "./AnimatedSection";
+import { AnimatedSection } from "../";
 
 export default function Certificate() {
   return (

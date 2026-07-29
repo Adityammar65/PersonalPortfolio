@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import useScrollDirection from "../hooks/useScrollDirection";
+import useScrollDirection from "../../hooks/useScrollDirection";
 
 export default function AnimatedSection({ children, id, className = "" }) {
   const direction = useScrollDirection();
@@ -8,24 +8,20 @@ export default function AnimatedSection({ children, id, className = "" }) {
     <motion.section
       id={id}
       className={className}
+      viewport={{
+        once: true,
+        amount: 0.15,
+      }}
+      transition={{
+        duration: 0.6,
+      }}
       initial={{
         opacity: 0,
-        y: direction === "down" ? 80 : -80,
-        filter: "blur(8px)",
+        y: 30,
       }}
       whileInView={{
         opacity: 1,
         y: 0,
-        filter: "blur(0px)",
-      }}
-      viewport={{
-        amount: 0.3,
-      }}
-      transition={{
-        duration: 0.8,
-        type: "spring",
-        stiffness: 80,
-        damping: 18,
       }}
     >
       {children}

@@ -1,7 +1,8 @@
-import ProfilePhoto from "../assets/ProfilePhoto.jpg";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import AnimatedSection from "./AnimatedSection";
+
+import ProfilePhoto from "../../assets/ProfilePhoto.jpg";
+import { AnimatedSection } from "../";
 
 export default function Hero() {
   const [showRole, setShowRole] = useState(false);

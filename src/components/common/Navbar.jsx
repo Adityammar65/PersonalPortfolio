@@ -37,35 +37,35 @@ export default function Navbar() {
         </div>
 
         <div className="flex md:hidden justify-between items-center">
-          <h1 className="text-white font-semibold text-xl">Personal Portfolio</h1>
+          <h1 className="text-white font-semibold text-xl">
+            Personal Portfolio
+          </h1>
 
           <button onClick={() => setOpen(!open)} className="text-white">
             {open ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
-        <div
-          className={`overflow-hidden transition-all duration-300 md:hidden ${
-            open ? "max-h-96 mt-4" : "max-h-0"
-          }`}
-        >
-          <ul className="flex flex-col items-center gap-5 text-white/70 font-medium pb-4">
-            {menus.map((menu) => (
-              <li key={menu}>
-                <Link
-                  to={menu}
-                  smooth={true}
-                  duration={600}
-                  offset={-80}
-                  onClick={() => setOpen(false)}
-                  className="capitalize cursor-pointer hover:text-white transition"
-                >
-                  {menu}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {open && (
+          <div className="mt-4 md:hidden">
+            <ul className="flex flex-col items-center gap-5 pb-4 text-white/70 font-medium">
+              {menus.map((menu) => (
+                <li key={menu}>
+                  <Link
+                    to={menu}
+                    smooth
+                    duration={600}
+                    offset={-80}
+                    onClick={() => setOpen(false)}
+                    className="capitalize cursor-pointer hover:text-white transition"
+                  >
+                    {menu}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </nav>
   );

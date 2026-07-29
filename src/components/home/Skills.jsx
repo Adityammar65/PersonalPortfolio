@@ -1,7 +1,7 @@
-import AnimatedSection from "./AnimatedSection";
+import { AnimatedSection } from "../";
 import { SkillCard } from ".";
 
-import { skills } from "../data/skills";
+import { skills } from "../../data/skills";
 
 export default function Skills() {
   return (

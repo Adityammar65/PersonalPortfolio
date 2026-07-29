@@ -1,5 +1,5 @@
-import { projects } from "../data/projects";
-import AnimatedSection from "./AnimatedSection";
+import { projects } from "../../data/projects";
+import { AnimatedSection } from "../";
 import { ProjectCard } from ".";
 
 export default function Projects() {

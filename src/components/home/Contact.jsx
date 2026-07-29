@@ -1,4 +1,4 @@
-import AnimatedSection from "./AnimatedSection";
+import { AnimatedSection } from "../";
 
 import { FaGithub, FaLinkedin, FaWhatsapp, FaDownload } from "react-icons/fa";
 
@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <AnimatedSection id="contact" className="py-16 md:py-20 lg:py-24">
+    <AnimatedSection id="contact" className="py-8 md:py-20 lg:py-24">
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
           Get In Touch
@@ -113,53 +113,123 @@ export default function Contact() {
               hover:shadow-[0_0_40px_rgba(59,130,246,.15)]
             "
           >
-            <h2 className="text-xl sm:text-2xl font-semibold text-white">
-              Download My CV
+            <h2 className="text-xl font-semibold text-white sm:text-2xl">
+              Download Resources
             </h2>
 
-            <p className="text-slate-400 mt-2 text-sm sm:text-base">
-              Choose the version that best suits your needs.
+            <p className="mt-2 text-sm text-slate-400 sm:text-base">
+              Download my professional documents, including my CV, portfolio,
+              and resume.
             </p>
 
-            <div className="space-y-5 sm:space-y-6 mt-8 sm:mt-10">
-              <div className="rounded-xl border border-slate-700 p-5 sm:p-6">
-                <h3 className="text-lg font-semibold text-white">
-                  English Version
+            <div className="mt-10 flex flex-col gap-5">
+              <div
+                className="
+      flex-1
+      flex
+      flex-col
+      rounded-2xl
+      border border-slate-700
+      bg-slate-900/30
+      p-6
+      transition-all
+      duration-300
+      hover:border-blue-500
+      hover:-translate-y-1
+    "
+              >
+                <h3 className="text-xl font-semibold text-white">
+                  Curriculum Vitae
                 </h3>
 
-                <p className="text-slate-400 text-sm mt-2">
-                  Recommended for international recruiters and global
-                  opportunities.
+                <p className="mt-3 text-sm leading-7 text-slate-400">
+                  A detailed overview of my education, technical skills, work
+                  experience, certifications, and selected projects.
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <a
+                    href="https://drive.google.com/file/d/1WoGco8XN89sBQ8iyd0L-6TrRAcPjX4ZL/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-blue-500 px-4 py-2 text-center text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white"
+                  >
+                    English
+                  </a>
+
+                  <a
+                    href="https://drive.google.com/file/d/1hlbW7NHW-LkRqfGhnmkN8Rg63BqofEV9/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-blue-500 px-4 py-2 text-center text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white"
+                  >
+                    Indonesian
+                  </a>
+                </div>
+              </div>
+
+              <div
+                className="
+      flex-1
+      flex
+      flex-col
+      rounded-2xl
+      border border-slate-700
+      bg-slate-900/30
+      p-6
+      transition-all
+      duration-300
+      hover:border-blue-500
+      hover:-translate-y-1
+    "
+              >
+                <h3 className="text-xl font-semibold text-white">Portfolio</h3>
+
+                <p className="mt-3 text-sm leading-7 text-slate-400">
+                  A collection of selected projects showcasing my web
+                  development, software engineering, and UI implementation
+                  experience.
                 </p>
 
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1WoGco8XN89sBQ8iyd0L-6TrRAcPjX4ZL"
+                  href="https://drive.google.com/file/d/1wi0xS0Hqkn9KJBhx8_0w9t3wizyQJqvy/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 text-blue-400 hover:text-blue-300 transition font-medium"
+                  className="mt-6 rounded-xl bg-blue-500 py-3 text-center font-medium text-white transition hover:bg-blue-600"
                 >
-                  <FaDownload />
-                  Download CV
+                  Download Portfolio
                 </a>
               </div>
 
-              <div className="rounded-xl border border-slate-700 p-5 sm:p-6">
-                <h3 className="text-lg font-semibold text-white">
-                  Indonesian Version
-                </h3>
+              <div
+                className="
+      flex-1
+      flex
+      flex-col
+      rounded-2xl
+      border border-slate-700
+      bg-slate-900/30
+      p-6
+      transition-all
+      duration-300
+      hover:border-blue-500
+      hover:-translate-y-1
+    "
+              >
+                <h3 className="text-xl font-semibold text-white">Resume</h3>
 
-                <p className="text-slate-400 text-sm mt-2">
-                  Suitable for local companies and opportunities in Indonesia.
+                <p className="mt-3 text-sm leading-7 text-slate-400">
+                  A concise one-page summary highlighting my skills, experience,
+                  and key achievements.
                 </p>
 
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1hlbW7NHW-LkRqfGhnmkN8Rg63BqofEV9"
+                  href="https://drive.google.com/file/d/1CvTr2GNMvO0v2A64x1b4wLJyBsXCrRqL/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 text-blue-400 hover:text-blue-300 transition font-medium"
+                  className="mt-6 rounded-xl bg-blue-500 py-3 text-center font-medium text-white transition hover:bg-blue-600"
                 >
-                  <FaDownload />
-                  Download CV
+                  Download Resume
                 </a>
               </div>
             </div>
