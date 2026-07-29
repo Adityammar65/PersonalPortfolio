@@ -49,8 +49,6 @@ It serves as a central place where recruiters, collaborators, and fellow develop
 
 ## Project Structure
 
-# Project Structure
-
 ```
 src/
 ├── assets
