@@ -47,7 +47,7 @@ export default function ProjectTechStack({ tech = [] }) {
   if (!tech.length) return null;
 
   return (
-    <section className="py-20">
+    <section className="py-10 md:py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-white">Tech Stack</h2>

@@ -8,7 +8,7 @@ import {
 
 export default function ProjectHero({ project }) {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20">
+    <section className="relative overflow-hidden py-10 md:py-20">
       <div className="absolute inset-0">
         <div className="absolute left-1/2 top-20 h-80 w-80 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[120px]" />
       </div>

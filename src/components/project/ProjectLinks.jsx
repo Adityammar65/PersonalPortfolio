@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function ProjectLinks({ project }) {
   return (
-    <section className="py-20">
+    <section className="py-10 md:py-20">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 25 }}
