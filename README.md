@@ -50,56 +50,70 @@ It serves as a central place where recruiters, collaborators, and fellow develop
 ## Project Structure
 
 ```
-src/
-├── assets
-│   ├── hero.png
-│   ├── ProfilePhoto.jpg
-│   ├── react.svg
-│   └── vite.svg
-├── components
-│   ├── common
-│   │   ├── AnimatedSection.jsx
-│   │   ├── BackgroundDecor.jsx
-│   │   ├── Footer.jsx
+├── public
+│   ├── CV_AdityaAmmar_EN.pdf
+│   ├── CV_AdityaAmmar_ID.pdf
+│   ├── favicon.png
+│   ├── icons.svg
+│   ├── Portfolio_AdityaAmmar.pdf
+│   └── Resume_AdityaAmmar.pdf
+├── src
+│   ├── assets
+│   │   ├── hero.png
+│   │   ├── ProfilePhoto.jpg
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components
+│   │   ├── common
+│   │   │   ├── AnimatedSection.jsx
+│   │   │   ├── BackgroundDecor.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── index.js
+│   │   │   └── Navbar.jsx
+│   │   ├── home
+│   │   │   ├── About.jsx
+│   │   │   ├── Certificate.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Experience.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── index.js
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   ├── SkillCard.jsx
+│   │   │   ├── SkillItem.jsx
+│   │   │   └── Skills.jsx
+│   │   ├── project
+│   │   │   ├── index.js
+│   │   │   ├── ProjectArchitecture.jsx
+│   │   │   ├── ProjectFeatures.jsx
+│   │   │   ├── ProjectHero.jsx
+│   │   │   ├── ProjectLinks.jsx
+│   │   │   ├── ProjectOverview.jsx
+│   │   │   └── ProjectTechStack.jsx
+│   │   └── index.js
+│   ├── data
+│   │   ├── projects.js
+│   │   └── skills.js
+│   ├── hooks
+│   │   └── useScrollDirection.js
+│   ├── layouts
+│   │   └── MainLayout.jsx
+│   ├── pages
+│   │   ├── Home.jsx
 │   │   ├── index.js
-│   │   └── Navbar.jsx
-│   ├── home
-│   │   ├── About.jsx
-│   │   ├── Certificate.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Hero.jsx
-│   │   ├── index.js
-│   │   ├── ProjectCard.jsx
-│   │   ├── Projects.jsx
-│   │   ├── SkillCard.jsx
-│   │   ├── SkillItem.jsx
-│   │   └── Skills.jsx
-│   ├── project
-│   │   ├── index.js
-│   │   ├── ProjectArchitecture.jsx
-│   │   ├── ProjectFeatures.jsx
-│   │   ├── ProjectHero.jsx
-│   │   ├── ProjectLinks.jsx
-│   │   ├── ProjectOverview.jsx
-│   │   └── ProjectTechStack.jsx
-│   └── index.js
-├── data
-│   ├── projects.js
-│   └── skills.js
-├── hooks
-│   └── useScrollDirection.js
-├── layouts
-│   └── MainLayout.jsx
-├── pages
-│   ├── Home.jsx
-│   ├── index.js
-│   └── ProjectDetail.jsx
-├── router
-│   └── index.jsx
-├── App.jsx
-├── index.css
-└── main.jsx
+│   │   └── ProjectDetail.jsx
+│   ├── router
+│   │   └── index.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── vercel.json
+└── vite.config.js
 ```
 
 ---

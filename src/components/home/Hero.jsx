@@ -95,12 +95,8 @@ export default function Hero() {
                   className="text-center"
                 >
                   <h1 className="text-xl sm:text-2xl text-white font-semibold">
-                    Junior Developer
+                    Full-stack Developer
                   </h1>
-
-                  <span className="text-sm text-white/65 font-medium">
-                    Frontend & Backend
-                  </span>
                 </motion.div>
               )}
             </AnimatePresence>

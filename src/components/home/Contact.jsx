@@ -114,14 +114,15 @@ export default function Contact() {
             "
           >
             <h2 className="text-xl font-semibold text-white sm:text-2xl">
-              Download Resources
+              Resources
             </h2>
 
             <p className="mt-2 text-sm text-slate-400 sm:text-base">
-              Download my professional documents, including my CV, portfolio,
-              and resume.
+              View and download my professional documents, including my CV,
+              portfolio, and resume.
             </p>
 
+            {/* CV */}
             <div className="mt-10 flex flex-col gap-5">
               <div
                 className="
@@ -149,7 +150,7 @@ export default function Contact() {
 
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
-                    href="https://drive.google.com/file/d/1WoGco8XN89sBQ8iyd0L-6TrRAcPjX4ZL/view?usp=drive_link"
+                    href="/CV_AdityaAmmar_EN.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-blue-500 px-4 py-2 text-center text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white"
@@ -158,7 +159,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://drive.google.com/file/d/1hlbW7NHW-LkRqfGhnmkN8Rg63BqofEV9/view?usp=drive_link"
+                    href="/CV_AdityaAmmar_ID.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg border border-blue-500 px-4 py-2 text-center text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white"
@@ -168,6 +169,7 @@ export default function Contact() {
                 </div>
               </div>
 
+              {/* PORTFOLIO */}
               <div
                 className="
       flex-1
@@ -192,15 +194,16 @@ export default function Contact() {
                 </p>
 
                 <a
-                  href="https://drive.google.com/file/d/1wi0xS0Hqkn9KJBhx8_0w9t3wizyQJqvy/view?usp=drive_link"
+                  href="/Portfolio_AdityaAmmar.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 rounded-xl bg-blue-500 py-3 text-center font-medium text-white transition hover:bg-blue-600"
                 >
-                  Download Portfolio
+                  View Portfolio
                 </a>
               </div>
 
+              {/* RESUME */}
               <div
                 className="
       flex-1
@@ -224,12 +227,12 @@ export default function Contact() {
                 </p>
 
                 <a
-                  href="https://drive.google.com/file/d/1CvTr2GNMvO0v2A64x1b4wLJyBsXCrRqL/view?usp=drive_link"
+                  href="/Resume_AdityaAmmar.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 rounded-xl bg-blue-500 py-3 text-center font-medium text-white transition hover:bg-blue-600"
                 >
-                  Download Resume
+                  View Resume
                 </a>
               </div>
             </div>

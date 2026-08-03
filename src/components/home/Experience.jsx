@@ -47,11 +47,11 @@ export default function Experience() {
           >
             <div>
               <h2 className="text-xl sm:text-2xl font-semibold text-white leading-snug">
-                Web Programming Laboratory Assistant
+                Web Programming Teaching Assistant
               </h2>
 
               <p className="text-blue-400 font-medium mt-2">
-                Universitas Amikom Yogyakarta
+                Amikom University Yogyakarta
               </p>
             </div>
 
@@ -81,7 +81,98 @@ export default function Experience() {
           </p>
 
           <div className="flex flex-wrap gap-2 sm:gap-3 mt-8">
-            {["Laravel", "PHP", "HTML", "CSS", "JavaScript", "Mentoring"].map(
+            {["HTML", "CSS", "JavaScript", "Bootstrap 5"].map(
+              (skill) => (
+                <span
+                  key={skill}
+                  className="
+                  px-3
+                  py-1
+                  rounded-full
+                  bg-blue-500/10
+                  border
+                  border-blue-500/20
+                  text-blue-300
+                  text-xs
+                  sm:text-sm
+                "
+                >
+                  {skill}
+                </span>
+              ),
+            )}
+          </div>
+        </div>
+
+        <div
+          className="
+            mt-12
+            md:mt-16
+
+            rounded-2xl
+            border
+            border-slate-700
+            bg-slate-800/40
+            backdrop-blur-md
+
+            p-6
+            sm:p-8
+
+            transition-all
+            duration-300
+
+            hover:-translate-y-2
+            hover:border-blue-500
+            hover:shadow-[0_0_40px_rgba(59,130,246,.15)]
+          "
+        >
+          <div
+            className="
+              flex
+              flex-col
+              sm:flex-row
+              sm:justify-between
+              sm:items-start
+              gap-4
+            "
+          >
+            <div>
+              <h2 className="text-xl sm:text-2xl font-semibold text-white leading-snug">
+                Object Oriented Programming Teaching Assistant
+              </h2>
+
+              <p className="text-blue-400 font-medium mt-2">
+                Amikom University Yogyakarta
+              </p>
+            </div>
+
+            <span
+              className="
+                self-start
+                px-4
+                py-2
+                rounded-full
+                bg-blue-500/10
+                text-blue-300
+                text-xs
+                sm:text-sm
+                whitespace-nowrap
+              "
+            >
+              2025 - Present
+            </span>
+          </div>
+
+          <p className="mt-8 text-slate-300 leading-7 sm:leading-8 text-sm sm:text-base">
+            Assisted students during Object Oriented Programming laboratory sessions by
+            explaining programming concepts, troubleshooting coding issues, and
+            providing guidance on practical assignments. Collaborated with
+            lecturers to ensure effective learning and helped maintain a
+            productive classroom environment.
+          </p>
+
+          <div className="flex flex-wrap gap-2 sm:gap-3 mt-8">
+            {["Python", "OOP", "Streamlit"].map(
               (skill) => (
                 <span
                   key={skill}

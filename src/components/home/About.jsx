@@ -25,7 +25,7 @@ export default function About() {
               </span>
               <br />
               <br />
-              I am an Informatics Management student at Universitas Amikom
+              I am an Informatics Management student at Amikom University
               Yogyakarta with a strong interest in Web Development. I enjoy
               creating modern web applications, learning new technologies, and
               solving real-world problems through clean, maintainable code.
@@ -46,7 +46,7 @@ export default function About() {
                 <p className="text-blue-400 font-medium">Education</p>
                 <p className="text-white">Diploma of Informatics Management</p>
                 <p className="text-slate-400 text-sm">
-                  Universitas Amikom Yogyakarta
+                  Amikom University Yogyakarta
                 </p>
                 <p className="text-slate-500 text-sm">2024 – Present</p>
               </div>
